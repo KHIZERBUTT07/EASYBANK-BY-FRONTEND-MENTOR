@@ -1,15 +1,12 @@
-alertI("hellloo")
-
 function toggleElements() {
     let menu = document.querySelector('.menu');
     let closeMenu = document.querySelector('.close-menu');
     let overLay = document.querySelector('.overlaywe');
     let navItems = document.querySelector('.nav-items');
 
-        closeMenu.classList.remove('were');
-        overLay.classList.remove('were');
-        navItems.classList.remove('were');
-        menu.classList.add('were');
+        closeMenu.classList.toggle('were');
+        overLay.classList.toggle('were');
+        navItems.classList.toggle('were');
         
      
 }

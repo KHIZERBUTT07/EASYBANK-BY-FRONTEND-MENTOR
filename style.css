@@ -452,7 +452,7 @@
         
         .iconi-one:hover {
             .hover-img {
-                background-image: url(/easybank-landing-page-master/images/icon-facebook.svg);
+                background-image: url(/images/icon-facebook.svg);
                 background-repeat: no-repeat;
             }
         
@@ -573,9 +573,9 @@
                 display: none;
             }
         
-            .second {
+            /* .second {
                 display: none;
-            }
+            } */
             
             .hero-mob {
                 overflow: hidden;
@@ -698,4 +698,44 @@
             .were{
                 display: none;
             }
+            .second {
+                width: 100%;
+                /* display: none; */
+                display: flex;
+                position: absolute;
+                top: -136px;
+                /* width: 100%; */
+                left: 0px;
+                height: 100%;
+                justify-content: center;
+            }
+            .second-image-hero {
+                height: 65%;
+            }
+            .hideonmobile{
+                display: none;
+            }
+            .menubutton{
+                display: block;
+            }
         }
+        
+
+        @media only screen and (max-width: 1007px) and (min-width: 620px) {
+            .second {
+                width: 100%;
+                /* display: none; */
+                display: flex;
+                position: absolute;
+                top: -136px;
+                /* width: 100%; */
+                left: 0px;
+                height: 100%;
+                justify-content: center;
+            }
+            .second-image-hero {
+                height: 80%;
+            }
+         
+        }
+        
