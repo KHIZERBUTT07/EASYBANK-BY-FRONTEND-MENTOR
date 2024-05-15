@@ -688,12 +688,27 @@
             .nav-items .btn{
                 display: none;
             }
-            .close-menu{
+            /* .close-menu{
                 display: block;
                 position: absolute;
                 z-index: 31;
                 top: 30px;
                 right: 35px;
+            }*/
+            .close-menu {
+                display: block;
+                position: absolute;
+                z-index: 31;
+                top: 30px;
+                right: 35px;
+                height: 30px;
+                width: 30px;
+    
+            }
+    
+            .close-menu img {
+                height: 60%;
+                width: 60%;
             }
             .were{
                 display: none;
@@ -721,6 +736,7 @@
         }
         
 
+        
         @media only screen and (max-width: 1007px) and (min-width: 620px) {
             .second {
                 width: 100%;

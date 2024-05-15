@@ -4,10 +4,10 @@ function toggleElements() {
     let overLay = document.querySelector('.overlaywe');
     let navItems = document.querySelector('.nav-items');
 
-        closeMenu.classList.toggle('were');
-        overLay.classList.toggle('were');
-        navItems.classList.toggle('were');
-        
+        closeMenu.classList.remove('were');
+        overLay.classList.remove('were');
+        navItems.classList.remove('were');
+        menu.classList.add('were')
      
 }
 function addElements() {
